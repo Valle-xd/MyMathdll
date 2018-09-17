@@ -37,8 +37,8 @@ namespace MyMathTest
         [TestMethod()]
         public void MultiplicationTestInt1()
         {
-            int number1 = 0;
-            int number2 = 10;
+            int number1 = 10;
+            int number2 = 0;
             int result = SimpleMath.Multiplication(number1, number2);
             Assert.AreEqual(0, result);
         }
